@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
+*.zip
+
+# Excel temporaires
+~$*.xlsx
+
+# Fichiers lourds ou outputs à ignorer si besoin
+archive/
+rag_eda_deliverables/eda_outputs/
+
+
+*.csv
+*.xlsx
