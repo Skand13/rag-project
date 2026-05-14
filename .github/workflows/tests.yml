@@ -1,0 +1,34 @@
+name: Tests
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install pytest python-dotenv rank-bm25 numpy pandas
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
+        env:
+          OPENSEARCH_HOST: localhost
+          OPENSEARCH_PORT: "9200"
+          OPENSEARCH_USER: admin
+          OPENSEARCH_PASSWORD: dummy
+          OPENROUTER_API_KEY: dummy
+          EMBEDDING_BACKEND: local
+          LOCAL_EMBEDDING_MODEL: paraphrase-multilingual-MiniLM-L12-v2
+          EMBEDDING_DIM: "384"
