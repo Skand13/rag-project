@@ -1,7 +1,8 @@
 import requests
 import json
+import os
 
-API_KEY = "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"
+API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 url = "https://openrouter.ai/api/v1/models"
 
 headers = {
