@@ -1,7 +1,6 @@
 """Script d'ingestion complet : de CSV à index OpenSearch."""
 
 import argparse
-from pathlib import Path
 from loguru import logger
 
 from src.ingestion.loader import load_tickets

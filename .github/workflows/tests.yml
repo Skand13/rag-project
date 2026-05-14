@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest python-dotenv rank-bm25 numpy pandas
+          pip install pytest python-dotenv rank-bm25 numpy pandas loguru opensearch-py sentence-transformers httpx  
 
       - name: Run tests
         run: pytest tests/ -v --tb=short
