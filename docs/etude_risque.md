@@ -2,7 +2,7 @@
 
 **Version :** 1.0  
 **Date :** Juillet 2025  
-**Auteurs :** Équipe Projet RAG-time (3 développeurs)  
+**Auteurs :** Équipe Projet RAG-time
 **Destinataires :** Direction Informatique, Responsable SAV, DPO LogiStore  
 **Classification :** Usage interne — Confidentiel
 
