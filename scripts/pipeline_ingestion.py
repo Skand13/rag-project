@@ -1,4 +1,4 @@
-"""Script d'ingestion complet : de CSV à index OpenSearch."""
+"""Script d'ingestion complet."""
 
 import argparse
 from loguru import logger
