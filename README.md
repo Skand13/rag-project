@@ -7,8 +7,7 @@
 [![OpenSearch 2.13](https://img.shields.io/badge/OpenSearch-2.13-005EB8?logo=opensearch)](https://opensearch.org/)
 
 Système RAG (Retrieval-Augmented Generation) **multilingue** pour la recherche intelligente de tickets SAV.
-Conçu pour indexer et interroger **plus de 200 000 tickets** en 5 langues (EN, FR, DE, ES, PT),
-développé en sprint de **10 jours** par une équipe de **3 développeurs**.
+Conçu pour indexer et interroger **plus de 200 000 tickets** en 5 langues (EN, FR, DE, ES, PT).
 
 ---
 
