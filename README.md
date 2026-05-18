@@ -296,5 +296,3 @@ main
 5. Demander une review avant de merger
 
 ---
-
-*Projet réalisé dans le cadre d'un sprint de 10 jours — équipe de 3 développeurs.*
